@@ -1,9 +1,11 @@
 using System.Numerics;
 using Raylib_CsLo;
-using WhiteWorld.engine.scripts;
-using Transform = WhiteWorld.engine.scripts.Transform;
+using SailorsTale.engine.scripts;
+using Transform = SailorsTale.engine.scripts.Transform;
 
-namespace WhiteWorld.engine;
+namespace SailorsTale.engine;
+
+using Transform = scripts.Transform;
 
 public static partial class Engine {
     public static bool Debugging = true;

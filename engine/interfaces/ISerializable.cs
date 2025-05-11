@@ -1,8 +1,8 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using WhiteWorld.utility;
+using SailorsTale.utility;
 
-namespace WhiteWorld.engine.interfaces;
+namespace SailorsTale.engine.interfaces;
 
 public interface ISerializable {
     string Identifier { get; }

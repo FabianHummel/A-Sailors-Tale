@@ -1,9 +1,9 @@
-using WhiteWorld.engine;
-using WhiteWorld.engine.ecs;
-using WhiteWorld.engine.scripts;
-using WhiteWorld.game.scripts.shared;
+using SailorsTale.engine;
+using SailorsTale.engine.ecs;
+using SailorsTale.engine.scripts;
+using SailorsTale.game.scripts.shared;
 
-namespace WhiteWorld.game.scenes.parents;
+namespace SailorsTale.game.scenes.parents;
 
 public abstract class PlayerScene : Engine.Level {
     protected PlayerScene(

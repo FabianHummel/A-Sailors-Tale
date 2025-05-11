@@ -3,7 +3,7 @@ using Microsoft.Toolkit.HighPerformance.Buffers;
 using Raylib_CsLo;
 using Raylib_CsLo.InternalHelpers;
 
-namespace WhiteWorld.utility;
+namespace SailorsTale.utility;
 
 public class RaylibExtensions {
 

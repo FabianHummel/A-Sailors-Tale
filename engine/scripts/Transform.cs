@@ -1,7 +1,7 @@
 using System.Numerics;
-using WhiteWorld.engine.ecs;
+using SailorsTale.engine.ecs;
 
-namespace WhiteWorld.engine.scripts;
+namespace SailorsTale.engine.scripts;
 
 [DisallowMultipleInstances, DisallowRemoval]
 public class Transform : GameScript {

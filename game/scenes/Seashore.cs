@@ -1,12 +1,12 @@
 using System.Numerics;
-using WhiteWorld.engine;
-using WhiteWorld.engine.ecs;
-using WhiteWorld.engine.scripts;
-using WhiteWorld.game.scenes.parents;
-using WhiteWorld.game.scripts.seashore;
-using WhiteWorld.game.scripts.shared;
+using SailorsTale.engine;
+using SailorsTale.engine.ecs;
+using SailorsTale.engine.scripts;
+using SailorsTale.game.scenes.parents;
+using SailorsTale.game.scripts.seashore;
+using SailorsTale.game.scripts.shared;
 
-namespace WhiteWorld.game.scenes; 
+namespace SailorsTale.game.scenes; 
 
 public class Seashore : PlayerScene {
     public Seashore() : base(

@@ -1,6 +1,6 @@
-using WhiteWorld.engine.ecs;
+using SailorsTale.engine.ecs;
 
-namespace WhiteWorld.engine.interfaces;
+namespace SailorsTale.engine.interfaces;
 
 public interface IInteractable {
     void OnInteract(GameObject interactor);

@@ -1,8 +1,8 @@
 using System.Numerics;
-using WhiteWorld.engine.ecs;
-using WhiteWorld.utility;
+using SailorsTale.engine.ecs;
+using SailorsTale.utility;
 
-namespace WhiteWorld.engine.scripts;
+namespace SailorsTale.engine.scripts;
 
 public class Velocity : GameScript {
     public float X { get; set; }

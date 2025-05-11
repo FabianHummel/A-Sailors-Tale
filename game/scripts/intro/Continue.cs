@@ -1,18 +1,19 @@
 using Raylib_CsLo;
-using WhiteWorld.engine;
-using WhiteWorld.engine.ecs;
-using WhiteWorld.engine.gui;
-using WhiteWorld.game.scenes;
-using WhiteWorld.utility;
+using SailorsTale.engine;
+using SailorsTale.engine.ecs;
+using SailorsTale.engine.gui;
+using SailorsTale.game.scenes;
+using SailorsTale.utility;
 using Color = Raylib_CsLo.Color;
-using Transform = WhiteWorld.engine.scripts.Transform;
+using scripts_Transform = SailorsTale.engine.scripts.Transform;
+using Transform = SailorsTale.engine.scripts.Transform;
 
-namespace WhiteWorld.game.scripts.intro;
+namespace SailorsTale.game.scripts.intro;
 
 public class Continue : GameScript {
 
     private readonly string _text;
-    private Transform _transform = null!;
+    private scripts_Transform _transform = null!;
     private Color _textColor = Raylib.RAYWHITE;
 
     public Continue(string text) {

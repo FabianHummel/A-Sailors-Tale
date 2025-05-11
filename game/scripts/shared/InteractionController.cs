@@ -1,14 +1,15 @@
 using System.Numerics;
 using Raylib_CsLo;
-using WhiteWorld.engine;
-using WhiteWorld.engine.ecs;
-using WhiteWorld.engine.scripts;
-using Transform = WhiteWorld.engine.scripts.Transform;
+using SailorsTale.engine;
+using SailorsTale.engine.ecs;
+using SailorsTale.engine.scripts;
+using scripts_Transform = SailorsTale.engine.scripts.Transform;
+using Transform = SailorsTale.engine.scripts.Transform;
 
-namespace WhiteWorld.game.scripts.shared;
+namespace SailorsTale.game.scripts.shared;
 
 public class InteractionController : GameScript {
-    private Transform _transform = null!;
+    private scripts_Transform _transform = null!;
     private PlayerController _player = null!;
     private readonly float _distance;
 

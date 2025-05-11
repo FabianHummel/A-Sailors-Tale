@@ -1,4 +1,4 @@
-namespace WhiteWorld.engine; 
+namespace SailorsTale.engine; 
 
 public partial class Engine {
     public static Logger GetLogger(string name) {

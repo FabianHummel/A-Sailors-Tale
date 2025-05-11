@@ -1,8 +1,8 @@
 using System.Numerics;
-using WhiteWorld.engine.ecs;
-using WhiteWorld.engine.interfaces;
+using SailorsTale.engine.ecs;
+using SailorsTale.engine.interfaces;
 
-namespace WhiteWorld.engine.scripts;
+namespace SailorsTale.engine.scripts;
 
 public class Collider : GameScript, IViewport {
     private readonly Vector2 _offset;

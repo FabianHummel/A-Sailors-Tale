@@ -1,6 +1,6 @@
 using Raylib_CsLo;
 
-namespace WhiteWorld.engine; 
+namespace SailorsTale.engine; 
 
 public static partial class Engine {
 

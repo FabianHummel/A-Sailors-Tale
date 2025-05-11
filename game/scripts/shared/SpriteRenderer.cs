@@ -1,14 +1,15 @@
-using WhiteWorld.engine;
-using WhiteWorld.engine.ecs;
-using Transform = WhiteWorld.engine.scripts.Transform;
+using SailorsTale.engine;
+using SailorsTale.engine.ecs;
+using scripts_Transform = SailorsTale.engine.scripts.Transform;
+using Transform = SailorsTale.engine.scripts.Transform;
 
-namespace WhiteWorld.game.scripts.shared; 
+namespace SailorsTale.game.scripts.shared; 
 
 public class SpriteRenderer : GameScript {
 
     public string SpriteName { get; set; }
 
-    private Transform _transform = null!;
+    private scripts_Transform _transform = null!;
 
     public SpriteRenderer(string spriteName) {
         SpriteName = spriteName;

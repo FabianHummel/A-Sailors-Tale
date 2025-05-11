@@ -1,12 +1,12 @@
 using System.Reflection;
 using Newtonsoft.Json;
 using Raylib_CsLo;
-using WhiteWorld.engine.ecs;
-using WhiteWorld.engine.gui;
-using WhiteWorld.engine.interfaces;
-using WhiteWorld.utility;
+using SailorsTale.engine.ecs;
+using SailorsTale.engine.gui;
+using SailorsTale.engine.interfaces;
+using SailorsTale.utility;
 
-namespace WhiteWorld.engine;
+namespace SailorsTale.engine;
 
 public static partial class Engine {
 

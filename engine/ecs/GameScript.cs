@@ -1,7 +1,7 @@
-using WhiteWorld.engine.gui;
-using WhiteWorld.engine.interfaces;
+using SailorsTale.engine.gui;
+using SailorsTale.engine.interfaces;
 
-namespace WhiteWorld.engine.ecs;
+namespace SailorsTale.engine.ecs;
 
 public abstract class GameScript : IUpdatable {
     public GameObject GameObject { get; set; } = null!;

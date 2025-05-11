@@ -1,11 +1,11 @@
 using System.Text;
 using Raylib_CsLo;
-using WhiteWorld.engine.gui;
-using WhiteWorld.utility;
+using SailorsTale.engine.gui;
+using SailorsTale.utility;
 using RayColor = Raylib_CsLo.Color;
-using Color = WhiteWorld.engine.gui.Color;
+using Color = SailorsTale.engine.gui.Color;
 
-namespace WhiteWorld.engine;
+namespace SailorsTale.engine;
 
 public static partial class Engine {
 
@@ -188,14 +188,14 @@ public static partial class Engine {
         ctx.AlignX = Align.Start;
         ctx.AlignY = Align.Start;
         var titleLength = (int) GetTextLength(MainFont, _currentDialogue.Title, 5, 1.0f).X;
-        ctx.DrawRectangle(7-2, -1, titleLength + 4, 7, Color.Black);
-        ctx.DrawRectangle(7-1, 0, titleLength + 2, 5, Color.White);
-        ctx.DrawText(_currentDialogue.Title, 7, 0, 5, Color.Black);
+        ctx.DrawRectangle(7-2, -1, titleLength + 4, 7, gui.Color.Black);
+        ctx.DrawRectangle(7-1, 0, titleLength + 2, 5, gui.Color.White);
+        ctx.DrawText(_currentDialogue.Title, 7, 0, 5, gui.Color.Black);
     }
 
     private static void DrawDialogueText(GuiContext ctx) {
         var brokenText = _dialogueText.LineBreaks(MainFont, 5, (float) ctx.W);
-        ctx.DrawText(brokenText, 0, 0, 5, Color.Black);
+        ctx.DrawText(brokenText, 0, 0, 5, gui.Color.Black);
     }
     
     private static void DrawDialogueOptions(GuiContext ctx) {
@@ -206,7 +206,7 @@ public static partial class Engine {
             if (i >= _selectedDialogueOption - _selectedDialogueOptionLocal && i <= _selectedDialogueOption - _selectedDialogueOptionLocal + MaxVisibleDialogueOptions - 1) {
                 var option = _currentDialogue.Options[i];
                 var brokenText = option.Option.LineBreaks(MainFont, 5, (float) ctx.W);
-                ctx.DrawText(brokenText, 0, heightSum - localOffset, 5, _selectedDialogueOption == i ? Color.Black : Color.Gray);
+                ctx.DrawText(brokenText, 0, heightSum - localOffset, 5, _selectedDialogueOption == i ? gui.Color.Black : gui.Color.Gray);
             }
             heightSum += ctx.H / 2;
         }

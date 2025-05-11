@@ -1,6 +1,6 @@
-using WhiteWorld.engine.gui;
+using SailorsTale.engine.gui;
 
-namespace WhiteWorld.engine.interfaces;
+namespace SailorsTale.engine.interfaces;
 
 public interface IUpdatable {
     void OnInit();

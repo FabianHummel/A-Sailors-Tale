@@ -1,6 +1,6 @@
 using Raylib_CsLo;
 
-namespace WhiteWorld.engine.gui;
+namespace SailorsTale.engine.gui;
 
 using RayColor = Raylib_CsLo.Color;
 

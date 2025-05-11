@@ -1,9 +1,9 @@
-using WhiteWorld.engine.gui;
-using WhiteWorld.engine.interfaces;
-using WhiteWorld.engine.scripts;
-using WhiteWorld.utility;
+using SailorsTale.engine.gui;
+using SailorsTale.engine.interfaces;
+using SailorsTale.engine.scripts;
+using SailorsTale.utility;
 
-namespace WhiteWorld.engine.ecs;
+namespace SailorsTale.engine.ecs;
 
 public class GameObject {
     private readonly List<GameScript> _scripts = new();

@@ -1,10 +1,10 @@
 using Raylib_CsLo;
-using WhiteWorld.engine;
-using WhiteWorld.engine.ecs;
-using WhiteWorld.engine.gui;
-using WhiteWorld.engine.interfaces;
+using SailorsTale.engine;
+using SailorsTale.engine.ecs;
+using SailorsTale.engine.gui;
+using SailorsTale.engine.interfaces;
 
-namespace WhiteWorld.game.scripts.shared;
+namespace SailorsTale.game.scripts.shared;
 
 public class Inventory : GameScript, ISerializable {
     public List<InventoryItem> Content { get; private set; } = new() {

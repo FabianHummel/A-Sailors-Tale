@@ -1,8 +1,8 @@
 using Raylib_CsLo;
-using WhiteWorld.engine;
-using WhiteWorld.engine.ecs;
+using SailorsTale.engine;
+using SailorsTale.engine.ecs;
 
-namespace WhiteWorld.game.scripts.shared;
+namespace SailorsTale.game.scripts.shared;
 
 public class LevelRenderer : GameScript {
 

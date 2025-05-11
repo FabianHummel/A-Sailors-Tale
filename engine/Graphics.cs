@@ -1,8 +1,8 @@
 using System.Numerics;
 using Raylib_CsLo;
-using WhiteWorld.utility;
+using SailorsTale.utility;
 
-namespace WhiteWorld.engine;
+namespace SailorsTale.engine;
 
 public static partial class     Engine {
     public static int PixelSize { get; private set; } = 4;

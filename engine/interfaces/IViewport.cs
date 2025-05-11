@@ -1,6 +1,6 @@
 using System.Numerics;
 
-namespace WhiteWorld.engine.interfaces;
+namespace SailorsTale.engine.interfaces;
 
 public interface IViewport {
     bool InViewport { get; set; }

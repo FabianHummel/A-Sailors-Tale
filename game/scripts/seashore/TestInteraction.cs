@@ -1,10 +1,10 @@
-using WhiteWorld.engine;
-using WhiteWorld.engine.ecs;
-using WhiteWorld.engine.scripts;
+using SailorsTale.engine;
+using SailorsTale.engine.ecs;
+using SailorsTale.engine.scripts;
 
-namespace WhiteWorld.game.scripts.seashore;
+namespace SailorsTale.game.scripts.seashore;
 
-[DisallowMultipleInstances]
+
 public class TestInteraction : Interactable
 {
     public override void OnInteract(GameObject interactor)
@@ -21,7 +21,17 @@ public class TestInteraction : Interactable
             new Engine.DialogueOption("What is this place?", () => {
                 Engine.QueueDialogue("Box", "Oh, this is my home.");
                 Engine.QueueDialogue("Box", "I have been here on this spot for several years now.");
-                Engine.QueueDialogue("Box", "Sometimes I wish I had legs like everyone else here...");
+                Engine.QueueDialogue("Box", "Sometimes I wish I had legs like everyone else here...", new [] {
+                    new Engine.DialogueOption("What makes you feel better?", () => {
+                        Engine.QueueDialogue("Box", "We could explore the world together! I could tell you stories about the places we visit while you push me around!");
+                        Engine.QueueDialogue("Box", "But remember to put me back here when we're done, okay?", new [] {
+                            new Engine.DialogueOption("I'll think about it.", () => {})
+                        });
+                    }),
+                    new Engine.DialogueOption("Sorry, I have to go.", () => {
+                        Engine.QueueDialogue("Box", "Goodbye... I hope you come back soon! *sad sniff*");
+                    }),
+                });
             })
         });
     }

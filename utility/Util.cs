@@ -4,9 +4,9 @@ using System.Numerics;
 using System.Text;
 using System.Text.RegularExpressions;
 using Raylib_CsLo;
-using WhiteWorld.engine;
+using SailorsTale.engine;
 
-namespace WhiteWorld.utility;
+namespace SailorsTale.utility;
 
 public static class Extensions {
     public static void AddIf<T>(this ICollection<T> source, bool predicate, T item) {

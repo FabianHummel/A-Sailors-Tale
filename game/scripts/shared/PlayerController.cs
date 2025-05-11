@@ -1,11 +1,12 @@
 using System.Numerics;
 using Raylib_CsLo;
-using WhiteWorld.engine;
-using WhiteWorld.engine.ecs;
-using WhiteWorld.engine.scripts;
-using Transform = WhiteWorld.engine.scripts.Transform;
+using SailorsTale.engine;
+using SailorsTale.engine.ecs;
+using SailorsTale.engine.scripts;
+using scripts_Transform = SailorsTale.engine.scripts.Transform;
+using Transform = SailorsTale.engine.scripts.Transform;
 
-namespace WhiteWorld.game.scripts.shared;
+namespace SailorsTale.game.scripts.shared;
 
 public class PlayerController : GameScript {
     public enum Direction {
@@ -13,7 +14,7 @@ public class PlayerController : GameScript {
     }
 
     private readonly float _speed;
-    private Transform _transform = null!;
+    private scripts_Transform _transform = null!;
     private SpriteRenderer _renderer = null!;
     private FlowCamera _camera = null!;
 
@@ -130,7 +131,7 @@ public class PlayerController : GameScript {
         };
 
         Engine.SpawnGameObject(new Item(item)
-            .WithTransform(new Transform(_transform.X + _transform.W / 2, _transform.Y + _transform.H / 2, _transform.Z + 5, 8, 8))
+            .WithTransform(new scripts_Transform(_transform.X + _transform.W / 2, _transform.Y + _transform.H / 2, _transform.Z + 5, 8, 8))
             .AddScript(new Velocity(initialVelocity, friction: 2f, gravity: 20f))
         );
     }

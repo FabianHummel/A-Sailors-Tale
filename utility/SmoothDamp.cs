@@ -1,6 +1,6 @@
 using System.Numerics;
 
-namespace WhiteWorld.utility;
+namespace SailorsTale.utility;
 
 internal static class SmoothDamp {
     // Based on Unity Source Code which is based on Game Programming Gems 4 Chapter 1.10

@@ -1,4 +1,4 @@
-namespace WhiteWorld.engine; 
+namespace SailorsTale.engine; 
 
 //public class PaletteEntry {
 //    public string Id { get; }

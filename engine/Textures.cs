@@ -1,7 +1,7 @@
 using Raylib_CsLo;
-using WhiteWorld.utility;
+using SailorsTale.utility;
 
-namespace WhiteWorld.engine; 
+namespace SailorsTale.engine; 
 
 public static unsafe partial class Engine {
     

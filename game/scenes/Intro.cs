@@ -1,10 +1,10 @@
-using WhiteWorld.engine;
-using WhiteWorld.engine.ecs;
-using WhiteWorld.engine.gui;
-using WhiteWorld.engine.scripts;
-using WhiteWorld.game.scripts.intro;
+using SailorsTale.engine;
+using SailorsTale.engine.ecs;
+using SailorsTale.engine.gui;
+using SailorsTale.engine.scripts;
+using SailorsTale.game.scripts.intro;
 
-namespace WhiteWorld.game.scenes; 
+namespace SailorsTale.game.scenes; 
 
 public class Intro : Engine.Scene {
 
@@ -22,7 +22,7 @@ public class Intro : Engine.Scene {
         gameObjectsToSpawn: new() {
             { "Intro Title", new GameObject()
                 .WithTransform(new Transform(0, 10))
-                .AddScript(new Title("~ A White World ~"))
+                .AddScript(new Title("~ A Sailor's Tale ~"))
             },
 
             { "Continue Text", new GameObject()

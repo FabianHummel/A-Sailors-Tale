@@ -1,7 +1,7 @@
-using WhiteWorld.engine.ecs;
-using WhiteWorld.game.scripts.shared;
+using SailorsTale.engine.ecs;
+using SailorsTale.game.scripts.shared;
 
-namespace WhiteWorld.engine;
+namespace SailorsTale.engine;
 
 public static partial class Engine {
     public static List<InventoryItem> RegisteredItems { get; } = new() {

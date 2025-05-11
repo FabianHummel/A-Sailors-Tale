@@ -1,10 +1,11 @@
 using System.Numerics;
 using Raylib_CsLo;
-using WhiteWorld.engine.ecs;
-using WhiteWorld.engine.interfaces;
+using SailorsTale.engine.ecs;
+using SailorsTale.engine.interfaces;
 
-namespace WhiteWorld.engine.scripts;
+namespace SailorsTale.engine.scripts;
 
+[DisallowMultipleInstances]
 public abstract class Interactable : GameScript, IViewport, IInteractable {
     public bool InViewport { get; set; }
     public Vector2 Position => GameObject.Transform.Position2D;
@@ -21,7 +22,6 @@ public abstract class Interactable : GameScript, IViewport, IInteractable {
     public abstract void OnInteract(GameObject interactor);
 }
 
-[DisallowMultipleInstances]
 public class SimpleInteraction : Interactable {
     private readonly string _title;
     private readonly string[] _textPool;

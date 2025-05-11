@@ -1,8 +1,8 @@
 using System.Numerics;
-using WhiteWorld.engine.interfaces;
-using WhiteWorld.engine.scripts;
+using SailorsTale.engine.interfaces;
+using SailorsTale.engine.scripts;
 
-namespace WhiteWorld.engine;
+namespace SailorsTale.engine;
 
 public partial class Engine {
 

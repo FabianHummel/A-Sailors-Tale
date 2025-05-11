@@ -1,9 +1,9 @@
 using Raylib_CsLo;
-using WhiteWorld.engine;
-using WhiteWorld.engine.ecs;
-using WhiteWorld.engine.gui;
+using SailorsTale.engine;
+using SailorsTale.engine.ecs;
+using SailorsTale.engine.gui;
 
-namespace WhiteWorld.game.scripts.intro;
+namespace SailorsTale.game.scripts.intro;
 
 public class Title : GameScript {
 

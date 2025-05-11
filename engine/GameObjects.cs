@@ -1,8 +1,8 @@
-using WhiteWorld.engine.ecs;
-using WhiteWorld.engine.gui;
-using WhiteWorld.utility;
+using SailorsTale.engine.ecs;
+using SailorsTale.engine.gui;
+using SailorsTale.utility;
 
-namespace WhiteWorld.engine; 
+namespace SailorsTale.engine; 
 
 public static partial class Engine {
     

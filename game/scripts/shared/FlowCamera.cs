@@ -1,10 +1,10 @@
 using System.Numerics;
-using WhiteWorld.engine;
-using WhiteWorld.engine.ecs;
-using WhiteWorld.engine.scripts;
-using WhiteWorld.utility;
+using SailorsTale.engine;
+using SailorsTale.engine.ecs;
+using SailorsTale.engine.scripts;
+using SailorsTale.utility;
 
-namespace WhiteWorld.game.scripts.shared;
+namespace SailorsTale.game.scripts.shared;
 
 public class FlowCamera : GameScript {
 

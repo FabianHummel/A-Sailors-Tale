@@ -1,10 +1,10 @@
 using System.Numerics;
 using Raylib_CsLo;
-using WhiteWorld.engine.ecs;
-using WhiteWorld.engine.gui;
-using WhiteWorld.game.scenes;
+using SailorsTale.engine.ecs;
+using SailorsTale.engine.gui;
+using SailorsTale.game.scenes;
 
-namespace WhiteWorld.engine;
+namespace SailorsTale.engine;
 
 public static partial class Engine {
     
@@ -34,7 +34,7 @@ public static partial class Engine {
     }
 
     private static void Init() {
-        Raylib.InitWindow(1100, 620, "A White World");
+        Raylib.InitWindow(1100, 620, "A Sailor's Tale");
         Raylib.SetTargetFPS(60);
         Raylib.InitAudioDevice();
         GameTexture = Raylib.LoadRenderTexture(1100, 620);
