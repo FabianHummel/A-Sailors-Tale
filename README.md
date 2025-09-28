@@ -24,7 +24,7 @@
     <td>
       <img src="https://github.com/user-attachments/assets/c62abc3f-52d4-4d09-aec2-3b84a08f6774" width="300px" />
       <br/>
-      <sub>Ingame Dialog (with debug menu)</sub>
+      <sub>Ingame (debug)</sub>
     </td>
    <td>
       <img src="https://github.com/user-attachments/assets/982940d2-5c32-47c0-a272-7581091264d6" width="300px" />
