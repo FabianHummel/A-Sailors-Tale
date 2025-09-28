@@ -1,7 +1,7 @@
 <h1 align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/27d7f6b0-67ec-4054-b2a4-bc638f9177f2">
-    <img alt="A Sailor's Tale" src="https://github.com/user-attachments/assets/929122d2-653e-42a1-9dd6-9d84b68c4cbc" height="160px">
+    <img alt="A Sailor's Tale" src="https://github.com/user-attachments/assets/929122d2-653e-42a1-9dd6-9d84b68c4cbc" height="140px">
   </picture>
 </h1>
 
